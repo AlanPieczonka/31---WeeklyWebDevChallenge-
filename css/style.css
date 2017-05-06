@@ -1,0 +1,466 @@
+/*
+html { font-size: 62.5%; }   =10px 
+body { font-size: 1.4rem; }  =14px 
+h1   { font-size: 2.4rem; }  =24px 
+*/
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/* BASIC SETUP */
+/*////////////////////////////////////////////////////////////////////////////*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #ffffff;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    font-family: "Cormorant", "sans-serif";
+    font-size: 62.5%;
+}
+
+.clearfix {zoom: 1} 
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/* REUSABLE COMPONENTS */
+/*////////////////////////////////////////////////////////////////////////////*/
+
+.row {
+    max-width: 1170px;
+    margin: 0 auto;  /*margin: 0 auto;*/
+}
+
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+
+/*reusable components*/
+
+.button-div{
+    text-align: center;
+}
+.whitebutton{
+  width: 175px;
+  height: 50px;
+    margin-top: 30px;
+  text-transform: uppercase;
+  color: #000000;
+    /*font family cormorant*/
+   font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #ffffff;
+  border: 1px solid gray;
+    transition: 0.3s;
+}
+
+.whitebutton:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 4.4rem;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 9999 !important;
+}
+
+/*section-about*/
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    font-family: "Cormorant", "sans-serif";
+    font-weight: 500;
+    font-size: 3.6rem;
+}
+h2:after{
+    display: block;
+    content: url(img/h2after.png);
+    margin-top: 15px;
+}
+
+.aboutparagraph{
+    max-width: 546px;
+    max-height: 94px;
+    color: #000000;
+    margin: 40 auto;
+    font-family: "Cormorant", "sans-serif";
+    font-weight: 400;
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+.spanabout{
+    font-weight: 700;
+}
+
+
+.button-div{
+text-align: center;
+}
+.button-download{
+    text-transform: uppercase;
+    border: 0;
+    width: 250px;
+    height: 50px;
+    background-color: #212121;
+    font-weight: 500;
+    font-size: 1.6rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.button-download:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+/*section-myskills*/
+.section-myskills{
+    padding-top: 20px;
+}
+
+.skillcol{
+    margin-left: 0px !important;
+}
+h3{
+    color: #000000;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-family: "Cormorant", "sans-serif";
+    font-weight: 400;
+}
+
+/*
+html 93%
+python 56%
+javascript 64%
+ruby 97%
+php 75%
+java 93%
+*/
+
+.skill-strap{
+    max-width: 370px;
+    height: 15px;
+    background-color: #DFDFDF;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.skill-strap-progress-bar{
+    display: block;
+    height: 100%;
+    width: 2%;
+    background-color: #000000;
+    overflow: hidden;
+    top: 0;
+    left: 0; 
+}
+
+/*section-service*/
+.section-service{
+    padding-bottom: 0px;
+}
+
+
+.background-serive-img{
+    width: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.service-maindiv{
+    min-height: 520px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 300px;
+    -webkit-box-shadow: 0px 2px 113px -28px rgba(84,84,84,1);
+-moz-box-shadow: 0px 2px 113px -28px rgba(84,84,84,1);
+box-shadow: 0px 2px 113px -28px rgba(84,84,84,1);
+            margin-bottom: -125px !important;
+
+}
+
+.whatido{
+    padding-top: 120px;
+}
+
+.div-service-icon{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h4{
+    font-size: 2.4rem;
+    color: #000000;
+    text-align: center;
+    font-family: "Cormorant", "sans-serif";
+    font-weight: 700;
+}
+.service-paragraph-div{
+    text-align: center;
+}
+.service-paragraph{
+   font-family: "Cormorant", "sans-serif";
+   color: #000000;
+   font-weight: 400;
+   font-size: 1.6rem; 
+    margin: 5px 60px; 
+    max-width: 290px;
+}
+
+
+
+/*section-photos*/
+
+
+
+/*section-numbers*/
+.section-numbers{
+    min-height: 287px;
+    background: url(img/numbers-background.png)center center no-repeat;
+    background-size: 100%;
+}
+
+h5{
+    text-align: center;
+    font-family: "Cormorant", "sans-serif";
+    font-weight: 300;
+    font-size: 10rem;
+}
+.numbers-paragraph{
+    text-align: center;
+    font-family: "Cormorant", "sans-serif";
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+/*section-portfolio*/
+.section-portfolio{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.portfolioh2{
+    padding-bottom: 20px;
+}
+.portimg{
+    max-width: 100%;
+}
+
+.wholediv{
+    position: relative;
+}
+
+.indiv{
+    visibility: hidden;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+
+.divborder{
+    border: 8px solid #ffffff;
+    border-left: 5px;
+    content: "";
+    width: 157px;
+    height: 195px;
+    position: relative;
+    top: 50px;
+}
+
+.projecttitle{
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 3rem;
+    opacity: 1 !important;
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+}
+
+.portfolio-icons{
+    position: relative;
+    left: 74px;
+    bottom: 30px;
+    
+}
+
+.wholediv:hover .indiv{
+   visibility: visible;
+}
+
+
+/*section-contact*/
+/*ROSSPIERDOL*/
+form{
+    margin-top: 60px;
+}
+.label-contact{
+    color: #000000;
+    font-size: 1.6rem;
+}
+.input-contact{
+    color: #000000;
+    font-size: 1rem;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #000000;
+}
+
+.bigger-font-input{
+    font-size: 2.5rem;
+}
+
+.label-textarea{
+    position:relative !important;
+    top: 50px;
+}
+.textarea-contact{
+    color: #000000;
+    font-size: 2.5rem;
+    width: 100%;
+    height: 155px;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    position: relative;
+    top: 50px;
+}
+.contact{
+    margin-top: 120px;
+    margin-bottom: 0px;
+
+}
+
+
+/* section-footer */
+
+.section-footer{
+    height: 103px;
+    font-size: 1.6rem;
+    font-family: "Cormorant", "sans-serif";
+    color: #ffffff;
+    background-color: #212121; 
+}
+h6{
+    font-size: 1.6rem;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 60px;
+    font-weight: 600;
+}
+
+
+.icon-circle{
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    bottom: 20px;
+    margin: 5px;
+    padding: 0;
+}
+
+
+
+
+.iconproperties{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 2.2rem;
+    padding: 0;
+    width: 0px;
+    height: 0px
+}
+
+.hovercoloraqua{
+    color: aqua;
+}
+
+.testing1{
+    background-color: white;
+}
+
+.iconfix{
+    left: 30%;
+}
+
+
+.firsticonhover{
+    position: absolute;
+    cursor: pointer;
+    width: 47px;
+    height: 47px;
+    z-index: 9999;
+}
+.secondiconhover{
+    position: absolute;
+    cursor: pointer;
+    width: 47px;
+    height: 47px;
+    z-index: 9999;
+}
+.thirdiconhover{
+    position: absolute;
+    cursor: pointer;
+    width: 47px;
+    height: 47px;
+    z-index: 9999; 
+}
+.fourthiconhover{
+    position: absolute;
+    cursor: pointer;
+    width: 47px;
+    height: 47px;
+    z-index: 9999;
+}
+.lastnavicon{
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 95px;
+    right: 35px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.arrowka{
+    position: absolute;
+    color: #000000;
+    top: 6%;
+    left: 32%;
+    font-size: 4rem;
+}
