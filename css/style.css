@@ -244,7 +244,7 @@ h4{
 
 /*section-numbers*/
 .section-numbers{
-    min-height: 287px;
+    min-height: 250px;
     background: url(img/numbers-background.png)center center no-repeat;
     background-size: 100%;
 }
@@ -362,23 +362,31 @@ form{
 }
 
 
-/* section-footer */
+
+
+
 
 .section-footer{
-    height: 103px;
+    padding-top: 80px;
+    min-height: 103px;
     font-size: 1.6rem;
     font-family: "Cormorant", "sans-serif";
     color: #ffffff;
     background-color: #212121; 
-    padding-top: 40px;
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
 h6{
     font-size: 1.6rem;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    bottom: 60px;
     font-weight: 600;
+    position: relative;
+    right: 70px;
 }
 
 
@@ -393,9 +401,6 @@ h6{
     margin: 5px;
     padding: 0;
 }
-
-
-
 
 .iconproperties{
     position: absolute;
@@ -449,11 +454,8 @@ h6{
     z-index: 9999;
 }
 .lastnavicon{
-    display: inline-block;
-    float: right;
     position: relative;
-    bottom: 95px;
-    right: 35px;
+    bottom: 10px;
     width: 45px;
     height: 45px;
     border: 1px solid #ffffff;
