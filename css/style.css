@@ -70,6 +70,8 @@ section {
   background-color: #ffffff;
   border: 1px solid gray;
     transition: 0.3s;
+        margin-bottom: 40px;
+
 }
 
 .whitebutton:hover{
@@ -94,6 +96,7 @@ h2{
     font-family: "Cormorant", "sans-serif";
     font-weight: 500;
     font-size: 3.6rem;
+    margin-top: 30px;
 }
 h2:after{
     display: block;
@@ -130,6 +133,7 @@ text-align: center;
     font-size: 1.6rem;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    margin-bottom: 40px;
 }
 .button-download:hover{
     background-color: #ffffff;
@@ -265,6 +269,7 @@ h5{
 }
 .portfolioh2{
     padding-bottom: 20px;
+    
 }
 .portimg{
     max-width: 100%;
@@ -353,7 +358,6 @@ form{
 }
 .contact{
     margin-top: 120px;
-    margin-bottom: 0px;
 
 }
 
@@ -366,6 +370,7 @@ form{
     font-family: "Cormorant", "sans-serif";
     color: #ffffff;
     background-color: #212121; 
+    padding-top: 40px;
 }
 h6{
     font-size: 1.6rem;
